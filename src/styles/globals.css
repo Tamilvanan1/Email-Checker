@@ -1,0 +1,206 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+
+#email-box{
+  padding-left: 25%;
+  padding-top: 100px;
+  margin-right: 20px;
+}
+#email-textfield{
+  width: 450px;
+  
+}
+#arrow-icon{
+  width: 20px;
+  padding-top: 1px;
+}
+#arrow-button{
+  width: 200px;
+  height: 55px;
+  background-color: #7d63ec;
+  margin-left: 20px;
+}
+
+#verify-input{
+  font-weight: bold;
+  color: white;
+}
+
+#alert-Error{
+  width: 700px;
+  margin-left: 320px;
+}
+
+#Email-text{
+  color: #1e9fc4;
+  border-color: black;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3.125rem;
+}
+
+#Email-bodytext{
+    font-weight: 600;
+    line-height: 1.9;
+    color: #6d7586;
+    text-align: center;
+    font-size: larger;
+}
+
+#MarkEmailReadIcon{
+  height: 50px;
+}
+
+#homepage{
+  background-color: black;
+  display:  block;
+}
+
+#homepage2{
+  background-color: white;
+}
+
+
+@media only screen and (max-width: 417px){
+  #email-textfield{
+    width: 200px;
+    
+  }
+  #Email-text{
+    color: #1e9fc4;
+    border-color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3.125rem;
+  }
+  #Email-bodytext{
+    font-weight: 550;
+    line-height: 1.9;
+    color: #6d7586;
+    text-align: center;
+    font-size: larger;
+}
+  
+}
+
+@media only screen and (max-width: 900px) {
+  #avatar-profile{
+    
+  display: flex;
+  }
+  #nav-pages{
+    display: flex;
+  }
+}
+
+
+#switch-Dark{
+  align-items: flex-end;
+}
+
+#email-textfield2{
+  background-color: #d9dce6;
+  width: 450px;
+}
+
+#copyrights{
+  text-align: center;
+  padding-top: 140px;
+}
+
+#aboutcard{
+  padding-top: 200px;
+  padding-left: 100px;
+  margin-left: 350px;
+  width: 400px;
+  
+}
+
+#imageAbout{
+  width: 350px;
+}
+
+#aboutPage{
+  display: block;
+}
+
+#socialshare{
+  background-color: rgb(214,41,118);
+  border-color: white ;
+  width: 150px;
+  box-shadow: #6d7586;
+  box-shadow: 10px;
+  border-radius: 10px;
+}
+
+#instagram{
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+#instagramLink{
+  font-weight: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+#myinstagramid{
+  padding-left: 20px;
+  background-color: rgb(214,41,118);
+  border-color: white ;
+  box-shadow: #6d7586;
+  border-radius: 10px;
+  margin-left: 600px;
+  margin-bottom: 1px;
+  height: 50px;
+}
+
+#aboutus{
+  color: white;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#aboutus2{
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#copyrights2{
+  color: white;
+  text-align: center;
+  padding-top: 140px;
+}
+
+@media only screen and (max-width: 417px){
+  #aboutPage{
+    display: block;
+  }
+  #aboutcard{
+    padding-top: 200px;
+    padding-left: 10px;
+    margin-left: 30px;
+    width: 400px;
+    
+  }
+  #myinstagramid{
+    padding-left: 30px;
+  background-color: rgb(214,41,118);
+  border-color: white ;
+  box-shadow: #6d7586;
+  border-radius: 10px;
+  margin-left: 140px;
+  margin-bottom: 1px;
+  height: 50px;
+  }
+}
